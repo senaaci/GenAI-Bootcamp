@@ -1,0 +1,74 @@
+body {
+    font-family: Garamond, serif;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d1b9c9e6;
+    color: #300758;
+    padding: 5px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    color: #4e91c7;
+}
+
+.popup video {
+    width: 100%;
+}
+
+.popup button {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+body {
+    background-color: #FFD1DC; /* Pudra rengi arka plan */
+}
+
+
+
+/* styles.css */
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+
